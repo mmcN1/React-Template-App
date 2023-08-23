@@ -1,0 +1,43 @@
+.color {
+  display: grid;
+  grid-template-columns: repeat(12, auto);
+  margin: auto;
+  height: 268.5px;
+}
+
+.button {
+  width: 40px;
+  height: 40px;
+
+}
+
+
+
+@media (max-width: 1360px) {
+  .color {
+    grid-template-columns: repeat(12, 8.8%);
+  }
+
+  .button {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+  }
+
+
+}
+
+@media (max-width: 765px) {
+  .color {
+    display: grid;
+    grid-template-columns: repeat(6, 18.8%);
+    margin: auto;
+
+  }
+
+  .button {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+  }
+}
